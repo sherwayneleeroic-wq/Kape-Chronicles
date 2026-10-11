@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kape Chronicles — a cozy local coffee shop serving handcrafted drinks and warm stories in the heart of the city.">
+  <title>Home | Kape Chronicles</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logo.svg" alt="Kape Chronicles home" onerror="this.style.display='none'">
+      <span class="logo-text">Kape Chronicles</span>
+    </a>
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="phone" href="tel:+639171234567">Call (0917) 123-4567</a>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h1>Brewed Stories, Every Cup</h1>
+      <p>Handcrafted coffee in the heart of the city.</p>
+      <a class="btn" href="menu.html">View Menu</a>
+    </section>
+
+    <section class="welcome">
+      <h2>Welcome to Kape Chronicles</h2>
+      <p>Every cup tells a story. From the farmers who grow our beans to the baristas who craft your drink, we believe great coffee is a journey worth sharing. Stop by, slow down, and taste the difference.</p>
+    </section>
+
+    <section class="featured">
+      <h2>Featured Drinks</h2>
+      <div class="card-grid">
+        <article class="card">
+          <img src="images/espresso.jpg" alt="Espresso shot in a small cup" onerror="this.src='https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=600'">
+          <h3>Espresso</h3>
+          <p>Bold, rich, and full of character.</p>
+        </article>
+        <article class="card">
+          <img src="images/latte.jpg" alt="Latte with heart-shaped latte art" onerror="this.src='https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600'">
+          <h3>Latte</h3>
+          <p>Smooth espresso with steamed milk.</p>
+        </article>
+        <article class="card">
+          <img src="images/coldbrew.jpg" alt="Glass of cold brew coffee with ice" onerror="this.src='https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600'">
+          <h3>Cold Brew</h3>
+          <p>Slow-steeped for 12 hours.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="video-section">
+      <h2>Watch Our Baristas</h2>
+      <video controls poster="media/latte-poster.jpg">
+        <source src="media/latte-pour.mp4" type="video/mp4">
+        <source src="media/latte-pour.webm" type="video/webm">
+        <track src="media/captions.vtt" kind="captions" srclang="en" label="English">
+        <track src="media/descriptions.vtt" kind="descriptions" srclang="en" label="English">
+        Your browser doesn't support the video element.
+      </video>
+    </section>
+
+    <aside class="cta">
+      <h2>Reserve Your Table</h2>
+      <p>Weekends fill up fast — book ahead.</p>
+      <a class="btn" href="contact.html">Reserve Now</a>
+    </aside>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kape Chronicles. All rights reserved.</p>
+    <div class="social">
+      <a href="https://www.facebook.com/christructure" aria-label="Facebook" target="_blank" rel="noopener">
+        <img src="images/facebook.svg" alt="Facebook" onerror="this.style.display='none'">
+      </a>
+      <a href="https://www.instagram.com/christructure" aria-label="Instagram" target="_blank" rel="noopener">
+        <img src="images/instagram.svg" alt="Instagram" onerror="this.style.display='none'">
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

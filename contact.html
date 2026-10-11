@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Reserve a table or send us a message at Kape Chronicles.">
+  <title>Contact | Kape Chronicles</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Center all main content */
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .page-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .contact-form {
+      text-align: center;
+    }
+
+    .contact-form form {
+      display: inline-block;
+      text-align: left;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .contact-form fieldset {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .contact-form legend {
+      font-weight: 600;
+      padding: 0 10px;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-top: 12px;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+    }
+
+    .form-buttons {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .form-buttons button {
+      margin: 0 8px;
+      padding: 10px 24px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+    }
+
+    .form-buttons button[type="submit"] {
+      background-color: #6f4e37;
+      color: #fff;
+    }
+
+    .form-buttons button[type="reset"] {
+      background-color: #ddd;
+      color: #333;
+    }
+
+    /* Center footer content */
+    footer {
+      text-align: center;
+    }
+
+    .social {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logo.svg" alt="Kape Chronicles home" onerror="this.style.display='none'">
+      <span class="logo-text">Kape Chronicles</span>
+    </a>
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="phone" href="tel:+639171234567">Call (0917) 123-4567</a>
+  </header>
+
+  <main>
+
+    <section class="page-header">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you.</p>
+    </section>
+
+    <section class="contact-info">
+      <h2>Visit Us</h2>
+      <p>123 Brew Street, Makati City</p>
+      <p>Open daily: 7:00 AM – 9:00 PM</p>
+      <p>Phone: <a href="tel:+639171234567">(0917) 123-4567</a></p>
+      <p>Email: <a href="mailto:hello@kapechronicles.com">hello@kapechronicles.com</a></p>
+    </section>
+
+    <section class="contact-form">
+      <h2>Reserve a Table</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Your Details</legend>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" required>
+
+          <label for="guests">Number of Guests</label>
+          <input type="number" id="guests" name="guests" min="1" max="12" value="2">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+
+          <div class="form-buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kape Chronicles. All rights reserved.</p>
+    <div class="social">
+      <a href="https://www.facebook.com/christructure" aria-label="Facebook" target="_blank" rel="noopener">
+        <img src="images/facebook.svg" alt="Facebook" onerror="this.style.display='none'">
+      </a>
+      <a href="https://www.instagram.com/christructure" aria-label="Instagram" target="_blank" rel="noopener">
+        <img src="images/instagram.svg" alt="Instagram" onerror="this.style.display='none'">
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

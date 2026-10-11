@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the Kape Chronicles menu — espresso, lattes, cold brew, and more.">
+  <title>Menu | Kape Chronicles</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logo.svg" alt="Kape Chronicles home" onerror="this.style.display='none'">
+      <span class="logo-text">Kape Chronicles</span>
+    </a>
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="phone" href="tel:+639171234567">Call (0917) 123-4567</a>
+  </header>
+
+  <main>
+
+    <section class="page-header">
+      <h1>Our Menu</h1>
+      <p>Crafted with care, served with warmth.</p>
+    </section>
+
+    <!-- Mobile: list view -->
+    <section class="menu-list">
+      <h2>Drinks</h2>
+      <ul>
+        <li><strong>Espresso</strong> — Bold single shot — ₱120</li>
+        <li><strong>Americano</strong> — Espresso + hot water — ₱140</li>
+        <li><strong>Latte</strong> — Espresso + steamed milk — ₱170</li>
+        <li><strong>Cappuccino</strong> — Espresso + foam — ₱170</li>
+        <li><strong>Cold Brew</strong> — 12-hour steeped — ₱180</li>
+        <li><strong>Mocha</strong> — Chocolate + espresso — ₱190</li>
+      </ul>
+    </section>
+
+    <!-- Desktop: table view -->
+    <section class="menu-table">
+      <table>
+        <caption>Our Menu</caption>
+        <thead>
+          <tr>
+            <th>Drink</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Espresso</td><td>Bold single shot</td><td>₱120</td></tr>
+          <tr><td>Americano</td><td>Espresso + hot water</td><td>₱140</td></tr>
+          <tr><td>Latte</td><td>Espresso + steamed milk</td><td>₱170</td></tr>
+          <tr><td>Cappuccino</td><td>Espresso + foam</td><td>₱170</td></tr>
+          <tr><td>Cold Brew</td><td>12-hour steeped</td><td>₱180</td></tr>
+          <tr><td>Mocha</td><td>Chocolate + espresso</td><td>₱190</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <aside class="cta">
+      <h2>Hungry Too?</h2>
+      <p>We also serve pastries and light meals.</p>
+      <a class="btn" href="contact.html">Ask Us</a>
+    </aside>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kape Chronicles. All rights reserved.</p>
+    <div class="social">
+      <a href="https://www.facebook.com/christructure" aria-label="Facebook" target="_blank" rel="noopener">
+        <img src="images/facebook.svg" alt="Facebook" onerror="this.style.display='none'">
+      </a>
+      <a href="https://www.instagram.com/christructure" aria-label="Instagram" target="_blank" rel="noopener">
+        <img src="images/instagram.svg" alt="Instagram" onerror="this.style.display='none'">
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
